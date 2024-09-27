@@ -47,7 +47,7 @@ head -c 100000 /dev/urandom | base64 > /challenge/data.txt
 #
 
 # Slowly construct the flag in parts
-FLAG_PARTS=("C" "I" "S" "O" "{" "W" "h" "a" "l" "i" "n" "D" "o" "c" "k" "e" "r" "I" "s" "A" "w" "e" "s" "o" "m" "e" "}")
+FLAG_PARTS=("C" "I" "S" "O" "c" "t" "f" "{" "W" "h" "a" "l" "i" "n" "D" "o" "c" "k" "e" "r" "I" "s" "A" "w" "e" "s" "o" "m" "e" "}")
 
 FLAG=""
 
