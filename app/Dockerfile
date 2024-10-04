@@ -2,7 +2,7 @@
 FROM ubuntu:latest
 
 
-RUN apt-get update && apt-get install -y not-a-real-package
+RUN apt-get update && apt-get install -y grep
 
 COPY script.sh /usr/local/bin/script.sh
 
